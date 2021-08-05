@@ -474,10 +474,10 @@
 	})
 	
 	startBtn.addEventListener('click', (e) => {
-	   if (e.target.innerHTML === 'Старт/Пауза') {
-	       e.target.innerHTML = 'Продолжить играть';
+	   if (e.target.innerHTML === 'start/pause') {
+	       e.target.innerHTML = 'Keep play';
 	   } else {
-	       e.target.innerHTML = 'Старт/Пауза';
+	       e.target.innerHTML = 'start/pause';
 	   }
 	   isStarted = !isStarted;
 	});
